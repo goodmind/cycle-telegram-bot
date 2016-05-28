@@ -1,0 +1,16 @@
+{
+  "twitter": {
+    "consumer_key": "???",
+    "consumer_secret": "???",
+    "nonce": "???",
+    "signature": "???",
+    "signature_method": "HMAC-SHA1",
+    "timestamp": "???",
+    "access_token": "???",
+    "access_token_secret": "???",
+    "version": "1.0"
+  },
+  "telegram": {
+    "access_token": "???"
+  }
+}

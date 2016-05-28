@@ -1,0 +1,39 @@
+{
+  "name": "cycle-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cycle.js news bot for Telegram",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist/ && mkdir -p dist",
+    "build": "babel -d dist/ src/ --copy-files",
+    "build:watch": "babel -w -d dist/ src/ --copy-files",
+    "eslint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodmind/cycle-telegram-bot.git"
+  },
+  "author": "goodmind <andwebar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goodmind/cycle-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/goodmind/cycle-telegram-bot#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^2.9.0",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2"
+  },
+  "dependencies": {
+    "@cycle/core": "^6.0.3",
+    "cycle-telegram": "^1.1.1",
+    "ramda": "^0.21.0",
+    "rx": "^4.1.0",
+    "twit": "^2.2.4"
+  }
+}
